@@ -1,12 +1,13 @@
 #ifndef PROG_RGZ_CPP_MENU_H
-#define PROG_RGZ_CPP_MENU_H
+#define PROG_RGЗ_CPP_MENU_H
 
 #include <ostream>
 #include "TV.h"
+#include "Radio.h"
 #include "list"
 #include "WhiteGoods.h"
 
-#define AVAILABLE_POSITIONS 3
+#define AVAILABLE_POSITIONS 4
 
 class Menu {
 private:
@@ -32,4 +33,4 @@ public:
     void Exit();
 };
 
-#endif //PROG_RGZ_CPP_MENU_H
+#endif //PROG_RGЗ_CPP_MENU_H

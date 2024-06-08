@@ -3,8 +3,9 @@
 void Menu::PrintMenu() {
     std::cout << "———— Menu ————" << std::endl;
     std::cout << "1) Create TV" << std::endl;
-    std::cout << "2) Create Basic class (WhiteGoods)" << std::endl;
-    std::cout << "3) Print List" << std::endl;
+    std::cout << "2) Create Radio" << std::endl;
+    std::cout << "3) Create Basic class (WhiteGoods)" << std::endl;
+    std::cout << "4) Print List" << std::endl;
     std::cout << "0) Exit program" << std::endl;
 }
 
@@ -22,6 +23,22 @@ TV *CreateTV() {
     std::cout << "Price: ";
     std::cin >> price;
     return new TV(vendor, model, color, price, screenSize);
+}
+
+Radio *CreateRadio() {
+    std::string vendor, model, color;
+    int frequencyRange, price;
+    std::cout << "Vendor name: ";
+    std::cin >> vendor;
+    std::cout << "Model: ";
+    std::cin >> model;
+    std::cout << "Color: ";
+    std::cin >> color;
+    std::cout << "Frequency range: ";
+    std::cin >> frequencyRange;
+    std::cout << "Price: ";
+    std::cin >> price;
+    return new Radio(vendor, model, color, price, frequencyRange);
 }
 
 WhiteGoods *CreateWhiteGoods() {
@@ -79,10 +96,14 @@ void Menu::PerformAction(int pickedPosition) {
             break;
         }
         case 2: {
-            Menu::AddToList(CreateWhiteGoods());
+            Menu::AddToList(CreateRadio());
             break;
         }
         case 3: {
+            Menu::AddToList(CreateWhiteGoods());
+            break;
+        }
+        case 4: {
             PrintList();
             break;
         }

@@ -1,5 +1,5 @@
-#ifndef PROG_RGZ_CPP_WHITEGOODS_H
-#define PROG_RGZ_CPP_WHITEGOODS_H
+#ifndef PROG_RGЗ_CPP_WHITEGOODS_H
+#define PROG_RGЗ_CPP_WHITEGOODS_H
 
 #include <ostream>
 #include "SetterUtil.h"
@@ -35,4 +35,4 @@ public:
 
 };
 
-#endif //PROG_RGZ_CPP_WHITEGOODS_H
+#endif //PROG_RGЗ_CPP_WHITEGOODS_H

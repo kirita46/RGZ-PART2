@@ -79,6 +79,12 @@ build CMakeFiles/prog_rgz_cpp.dir/Menu.cpp.o: CXX_COMPILER__prog_rgz_cpp_unscann
   OBJECT_DIR = CMakeFiles/prog_rgz_cpp.dir
   OBJECT_FILE_DIR = CMakeFiles/prog_rgz_cpp.dir
 
+build CMakeFiles/prog_rgz_cpp.dir/Radio.cpp.o: CXX_COMPILER__prog_rgz_cpp_unscanned_Debug /Users/dmitrijstarcenko/Downloads/prog_rgz_cpp-main/Radio.cpp || cmake_object_order_depends_target_prog_rgz_cpp
+  DEP_FILE = CMakeFiles/prog_rgz_cpp.dir/Radio.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/prog_rgz_cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/prog_rgz_cpp.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target prog_rgz_cpp
@@ -87,7 +93,7 @@ build CMakeFiles/prog_rgz_cpp.dir/Menu.cpp.o: CXX_COMPILER__prog_rgz_cpp_unscann
 #############################################
 # Link the executable prog_rgz_cpp
 
-build prog_rgz_cpp: CXX_EXECUTABLE_LINKER__prog_rgz_cpp_Debug CMakeFiles/prog_rgz_cpp.dir/main.cpp.o CMakeFiles/prog_rgz_cpp.dir/SetterUtil.cpp.o CMakeFiles/prog_rgz_cpp.dir/WhiteGoods.cpp.o CMakeFiles/prog_rgz_cpp.dir/TV.cpp.o CMakeFiles/prog_rgz_cpp.dir/Menu.cpp.o
+build prog_rgz_cpp: CXX_EXECUTABLE_LINKER__prog_rgz_cpp_Debug CMakeFiles/prog_rgz_cpp.dir/main.cpp.o CMakeFiles/prog_rgz_cpp.dir/SetterUtil.cpp.o CMakeFiles/prog_rgz_cpp.dir/WhiteGoods.cpp.o CMakeFiles/prog_rgz_cpp.dir/TV.cpp.o CMakeFiles/prog_rgz_cpp.dir/Menu.cpp.o CMakeFiles/prog_rgz_cpp.dir/Radio.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
   OBJECT_DIR = CMakeFiles/prog_rgz_cpp.dir
   POST_BUILD = :

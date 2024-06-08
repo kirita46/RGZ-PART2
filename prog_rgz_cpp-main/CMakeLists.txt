@@ -11,4 +11,6 @@ add_executable(prog_rgz_cpp main.cpp
         TV.cpp
         TV.h
         Menu.cpp
-        Menu.h)
+        Menu.h
+        Radio.cpp
+        Radio.h)

@@ -1,5 +1,5 @@
-#ifndef PROG_RGZ_CPP_SETTERUTIL_H
-#define PROG_RGZ_CPP_SETTERUTIL_H
+#ifndef PROG_RGЗ_CPP_SETTERUTIL_H
+#define PROG_RGЗ_CPP_SETTERUTIL_H
 
 #define VENDOR_NAME_SIZE_MIN 2
 #define VENDOR_NAME_SIZE_MAX 30
@@ -22,4 +22,4 @@ std::string validColor(std::string color);
 
 int validPrice(int price);
 
-#endif //PROG_RGZ_CPP_SETTERUTIL_H
+#endif //PROG_RGЗ_CPP_SETTERUTIL_H
